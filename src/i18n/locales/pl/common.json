@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "home": "Home",
+    "skills": "Umiejętności",
+    "projects": "Projekty",
+    "experience": "Doświadczenie",
+    "education": "Edukacja",
+    "contact": "Kontakt"
+  },
+
+  "home": {
+    "title": "Creative Developer",
+    "description": "Tworzę aplikacje internetowe, gry i cyfrowe doświadczenia."
+  },
+
+  "skills": {
+    "title": "Umiejętności",
+    "web": "Web Development",
+    "game": "Game Development",
+    "tools": "Narzędzia i inne"
+  },
+
+  "projects": {
+    "title": "Projekty",
+    "web": "Web Development",
+    "game": "Game Development"
+  },
+
+  "experience": {
+    "title": "Doświadczenie"
+  },
+
+  "education": {
+    "title": "Edukacja"
+  },
+
+  "contact": {
+    "title": "Kontakt"
+  }
+}

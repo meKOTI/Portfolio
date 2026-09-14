@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "home": "Home",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "education": "Education",
+    "contact": "Contact"
+  },
+
+  "home": {
+    "title": "Creative Developer",
+    "description": "I build web applications, games and digital experiences."
+  },
+
+  "skills": {
+    "title": "Skills",
+    "web": "Web Development",
+    "game": "Game Development",
+    "tools": "Tools & Other"
+  },
+
+  "projects": {
+    "title": "Projects",
+    "web": "Web Development",
+    "game": "Game Development"
+  },
+
+  "experience": {
+    "title": "Experience"
+  },
+
+  "education": {
+    "title": "Education"
+  },
+
+  "contact": {
+    "title": "Contact"
+  }
+}
