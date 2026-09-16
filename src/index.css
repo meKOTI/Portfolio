@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap");
-
 @import "tailwindcss";
 
 @theme {
   --font-sans: "Space Grotesk", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
+  --color-accent: #ffc15d;
 }
 
 html {
@@ -14,28 +14,12 @@ html {
 :root {
   --text: #dadada;
   --text-h: #ffffff;
-
   --bg: #080705;
-  --bg-transparent: #08070580;
-
+  --bg-transparent: #080705e6;
   --accent: #ffc15d;
-  --accent-bg: rgba(245, 166, 35, 0.1);
-  --accent-border: #f5a62380;
 
-  --social-bg: rgba(20, 24, 39, 0.5);
-
-  --accent-purple-bg: rgba(139, 92, 246, 0.1);
-  --accent-purple-border: rgba(139, 92, 246, 0.5);
-
-  --shadow:
-    rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-
-  --sans: "Space Grotesk", sans-serif;
-  --mono: "JetBrains Mono", monospace;
-
-  font: 18px/145% var(--sans);
+  font: 18px/145% "Space Grotesk", sans-serif;
   letter-spacing: 0.18px;
-
   color-scheme: dark;
   color: var(--text);
   background: var(--bg);
@@ -44,184 +28,26 @@ html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
 }
 
-#root {
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
+* {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  padding: 0;
+  min-width: 320px;
+  overflow-x: hidden;
+  background: var(--bg);
 }
 
-h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
-}
-
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
-}
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
-}
-p {
-  margin: 0;
-}
-
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
-}
-
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
-}
-
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0%;
+#root {
   width: 100%;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  height: 70px;
-
-  background-color: var(--bg-transparent);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--bg-transparent);
-}
-
-.navbar nav {
-  width: 1000px;
-  margin: auto;
-  padding: 0 auto;
-  display: flex;
-  flex-direction: row;
-
-  justify-content: space-between;
-}
-
-.navbar-scrolled {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.navbar a {
-  transition: none;
-  text-decoration: none;
-  position: relative;
-  font-weight: 600;
-  font-size: medium;
-}
-
-.navbar h3 {
-  padding-right: 150px;
-}
-
-.navbar a::before {
-  content: "";
-  position: absolute;
-
-  width: 0;
-  height: 1px;
-
-  background-color: #ffcc41;
-
-  bottom: -3px;
-  left: 0;
-
-  transition: width 0.4s ease;
-}
-
-.navbar a:hover::before {
-  left: 50%;
-  width: 100%;
-}
-
-.navbar a:hover {
-  color: var(--text-h);
-}
-
-.language-button {
-  position: fixed;
-  width: 50px;
-  top: 0;
-  right: 0;
-  z-index: 1000;
-  margin: 20px;
-}
-
-.navbar a:hover::before {
-  transform: translateX(-50%) scaleY(1);
-}
-
-.navbar-brand {
-  font-weight: 600;
-  font-size: medium;
-  padding-right: 350px;
-}
-
-/* Presentation layout */
-.presentation-section {
   min-height: 100svh;
-  box-sizing: border-box;
-  scroll-snap-align: start;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 100px 100px 100px;
-}
-
-.project-page {
-  min-height: 100svh;
-  box-sizing: border-box;
-  padding: 48px 32px;
 }
 
 @media (min-width: 1025px) {
   html {
     scroll-snap-type: y proximity;
-  }
-}
-
-@media (max-width: 1024px) {
-  .presentation-section {
-    min-height: 100svh;
-    padding: 90px 20px 24px;
-    scroll-snap-align: none;
   }
 }
