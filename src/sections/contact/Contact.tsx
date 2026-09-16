@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section id="contact" className="scroll-mt-[70px] h-300">
+    <section id="contact" className="presentation-section">
       <h2>Contact</h2>
     </section>
   );

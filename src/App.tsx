@@ -1,25 +1,34 @@
-import Navbar from "./components/navbar/Navbar";
+import { Routes, Route } from "react-router-dom";
 
+import Navbar from "./components/navbar/Navbar";
 import Home from "./sections/home/Home";
 import Skills from "./sections/skills/Skills";
 import Projects from "./sections/projects/Projects";
 import Experience from "./sections/experience/Experience";
-import Education from "./sections/education/Education";
 import Contact from "./sections/contact/Contact";
+import ProjectDetails from "./pages/project/ProjectDetails";
 
-function App() {
+function Portfolio() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="presentation">
         <Home />
         <Skills />
         <Projects />
         <Experience />
-        <Education />
         <Contact />
       </main>
     </>
+  );
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Portfolio />} />
+      <Route path="/projects/:projectId" element={<ProjectDetails />} />
+    </Routes>
   );
 }
 

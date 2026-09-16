@@ -7,34 +7,54 @@
     "education": "Education",
     "contact": "Contact"
   },
-
   "home": {
-    "title": "Creative Developer",
-    "description": "I build web applications, games and digital experiences."
+    "name": "Patryk Kotula",
+    "description": ""
   },
-
   "skills": {
     "title": "Skills",
-    "web": "Web Development",
+    "description": "The technologies I use most often — without turning the page into a wall of random icons.",
+    "web": "Web & Apps",
     "game": "Game Development",
     "tools": "Tools & Other"
   },
-
   "projects": {
-    "title": "Projects",
-    "web": "Web Development",
-    "game": "Game Development"
+    "title": "Selected projects",
+    "description": "A concise overview. Each project has its own page with the full story, process and materials.",
+    "web": "Web / Apps",
+    "game": "Game Development",
+    "viewProject": "View project"
   },
-
   "experience": {
-    "title": "Experience"
+    "title": "Experience",
+    "description": "A place for concrete roles, responsibilities and the things you actually delivered.",
+    "placeholderTitle": "Your professional experience",
+    "placeholderText": "Replace this block with the real company, role, dates and 2–3 responsibilities or results that matter most.",
+    "nextTitle": "Next experience",
+    "nextText": "The layout is ready for more entries without changing the section structure."
   },
-
   "education": {
-    "title": "Education"
+    "title": "Education",
+    "description": "Formal education and the certificates that actually support your professional profile.",
+    "schoolLabel": "Education",
+    "schoolPlaceholder": "Your school / university",
+    "schoolText": "Field of study, specialization, dates and a short note about what mattered most.",
+    "certLabel": "Certificates",
+    "certPlaceholder": "Relevant certificates",
+    "certText": "Keep the ones that genuinely reinforce your skills and direction."
   },
-
   "contact": {
-    "title": "Contact"
+    "title": "Let's build something good.",
+    "description": "If you'd like to talk about a role, a project or a collaboration, feel free to reach out."
+  },
+  "projectPage": {
+    "back": "Back to projects",
+    "notFound": "Project not found.",
+    "overview": "Overview",
+    "process": "Process & decisions",
+    "processPlaceholder": "Use this space to explain problems, trade-offs, architecture, design decisions and what you would approach differently in another iteration.",
+    "gallery": "Project materials",
+    "galleryPlaceholder": "Add screenshots, GIFs, short videos, mockups or your own artwork presenting the project here.",
+    "allProjects": "All projects"
   }
 }

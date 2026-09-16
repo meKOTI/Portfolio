@@ -1,6 +1,10 @@
 function Skills() {
   return (
-    <section id="skills" className="scroll-mt-[70px] h-300">
+    <section
+      id="skills"
+      className="presentation-section"
+      style={{ backgroundColor: "#f5a62380" }}
+    >
       <h2>Skills</h2>
     </section>
   );

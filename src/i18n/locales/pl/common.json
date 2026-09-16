@@ -7,34 +7,57 @@
     "education": "Edukacja",
     "contact": "Kontakt"
   },
-
   "home": {
-    "title": "Creative Developer",
-    "description": "Tworzę aplikacje internetowe, gry i cyfrowe doświadczenia."
+    "hello": "Cześć, jestem",
+    "firstname": "Patryk",
+    "lastname": "Kotula",
+    "categories": "Web  •  Desktop  •  Mobile  •  Game development",
+    "description": ""
   },
-
   "skills": {
     "title": "Umiejętności",
-    "web": "Web Development",
+    "description": "Technologie, z których korzystam najczęściej — bez ściany przypadkowych ikonek.",
+    "web": "Web & Apps",
     "game": "Game Development",
-    "tools": "Narzędzia i inne"
+    "tools": "Tools & Other"
   },
-
   "projects": {
-    "title": "Projekty",
-    "web": "Web Development",
-    "game": "Game Development"
+    "title": "Wybrane projekty",
+    "description": "Krótki przegląd. Każdy projekt ma osobną stronę z pełnym opisem, procesem i materiałami.",
+    "web": "Web / Apps",
+    "game": "Game Development",
+    "viewProject": "Zobacz projekt"
   },
-
   "experience": {
-    "title": "Doświadczenie"
+    "title": "Doświadczenie",
+    "description": "Tutaj możesz pokazać konkretne miejsca, role i rzeczy, za które odpowiadałeś.",
+    "placeholderTitle": "Twoje doświadczenie zawodowe",
+    "placeholderText": "Podmień ten blok na prawdziwą firmę, stanowisko, daty i 2–3 najważniejsze obowiązki lub rezultaty.",
+    "nextTitle": "Kolejne doświadczenie",
+    "nextText": "Sekcja jest gotowa do rozbudowy o następne wpisy bez zmiany layoutu."
   },
-
   "education": {
-    "title": "Edukacja"
+    "title": "Edukacja",
+    "description": "Formalna edukacja i najważniejsze certyfikaty w jednym, prostym miejscu.",
+    "schoolLabel": "Edukacja",
+    "schoolPlaceholder": "Twoja szkoła / studia",
+    "schoolText": "Kierunek, specjalizacja, zakres dat i krótka informacja o tym, co było istotne.",
+    "certLabel": "Certyfikaty",
+    "certPlaceholder": "Najważniejsze certyfikaty",
+    "certText": "Pokaż tylko te, które realnie wspierają Twój profil zawodowy."
   },
-
   "contact": {
-    "title": "Kontakt"
+    "title": "Zróbmy coś dobrego.",
+    "description": "Jeżeli chcesz porozmawiać o pracy, projekcie albo współpracy — napisz do mnie."
+  },
+  "projectPage": {
+    "back": "Wróć do projektów",
+    "notFound": "Nie znaleziono projektu.",
+    "overview": "O projekcie",
+    "process": "Proces i decyzje",
+    "processPlaceholder": "To miejsce na opis problemów, kompromisów, architektury, decyzji projektowych i rzeczy, które zrobiłbyś inaczej przy kolejnej iteracji.",
+    "gallery": "Materiały projektu",
+    "galleryPlaceholder": "Tutaj możesz dodać screenshoty, GIF-y, krótkie wideo, makiety lub własne grafiki prezentujące projekt.",
+    "allProjects": "Wszystkie projekty"
   }
 }
