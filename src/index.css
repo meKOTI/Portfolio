@@ -15,10 +15,12 @@ html {
   --text: #dadada;
   --text-h: #ffffff;
   --bg: #080705;
-  --bg-transparent: #080705e6;
+  --bg-transparent: #08070586;
   --accent: #ffc15d;
 
-  font: 18px/145% "Space Grotesk", sans-serif;
+  font:
+    18px/145% "Space Grotesk",
+    sans-serif;
   letter-spacing: 0.18px;
   color-scheme: dark;
   color: var(--text);
@@ -49,5 +51,29 @@ body {
 @media (min-width: 1025px) {
   html {
     scroll-snap-type: y proximity;
+  }
+}
+
+@keyframes timelineLineIn {
+  from {
+    transform: translateX(-50%) scaleX(0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(-50%) scaleX(1);
+    opacity: 1;
+  }
+}
+
+@keyframes timelineItemIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

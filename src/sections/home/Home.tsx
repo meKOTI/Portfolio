@@ -6,7 +6,7 @@ function Home() {
   return (
     <section
       id="home"
-      className="min-h-svh w-full scroll-mt-[70px] flex items-center pt-[102px] pb-12"
+      className="min-h-svh w-full scroll-mt-[200px] flex items-center pt-[70px] pb-12"
     >
       <div
         className="
@@ -17,7 +17,7 @@ function Home() {
         "
       >
         <div className="min-w-0 text-left pt-[5vh] lg:pt-0">
-          <span className="block mb-2 md:mb-3 text-base md:text-lg xl:text-xl">
+          <span className="block mb-2 text-xl md:text-2xl xl:text-3xl">
             {t("home.hello")}
           </span>
 
@@ -25,19 +25,21 @@ function Home() {
             className="
               flex flex-col items-start
               font-sans font-normal
-              text-[clamp(3.5rem,19vw,6rem)]
-              md:text-[clamp(4rem,8vw,6.5rem)]
-              lg:text-[clamp(4rem,6.4vw,7.5rem)]
-              leading-[0.82] tracking-[-0.055em]
+              text-[clamp(4rem,24vw,7rem)]
+              md:text-[clamp(4.5rem,20vw,8rem)]
+              lg:text-[clamp(4.5rem,16vw,9rem)]
+              leading-[0.83] tracking-[-0.05em]
             "
           >
             <span>{t("home.firstname")}</span>
-            <span className="text-accent">{t("home.lastname")}</span>
+            <span className="text-accent pl-[0.27em]">
+              {t("home.lastname")}
+            </span>
           </h1>
 
           <span
             className="
-              block mt-6 lg:mt-10
+              block mt-2 lg:mt-3
               font-mono
               text-xs md:text-sm xl:text-base
               leading-relaxed
@@ -45,6 +47,33 @@ function Home() {
           >
             {t("home.categories")}
           </span>
+          <p className="text-sm mt-6">{t("home.description")}</p>
+          <div className="mt-4 lg:mt-6 flex justify-center w-[100%] lg:w-[80%]">
+            <a
+              className="m-3 w-10"
+              href="https://www.facebook.com/patryk.kotula.73/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/facebook.svg" />
+            </a>
+            <a
+              className="m-3 w-10"
+              href="https://github.com/meKOTI"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/github.svg" />
+            </a>
+            <a
+              className="m-3 w-10"
+              href="https://www.linkedin.com/in/patryk-kotula-a0b32b309/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/linkedin.svg" />
+            </a>
+          </div>
         </div>
 
         <div

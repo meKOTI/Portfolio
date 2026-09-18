@@ -31,8 +31,8 @@ function Navbar() {
         className={`
           fixed inset-x-0 top-0 z-[1000]
           h-[70px] flex items-center
-          bg-[var(--bg-transparent)] backdrop-blur-xl
-          border-b transition-colors
+          bg-[var(--bg-transparent)] backdrop-blur-sm
+          border-b transition-colors 
           ${scrolled ? "border-white/10" : "border-transparent"}
         `}
       >
@@ -46,7 +46,7 @@ function Navbar() {
             pr-[66px]
           "
         >
-          <span className="hidden md:block mr-auto shrink-0 text-left text-sm lg:text-[0.95rem] font-semibold">
+          <span className="hidden md:block mr-auto shrink-0 text-left text-xs md:text-sm lg:text-[0.95rem] font-semibold">
             patryk.kotula
           </span>
 
